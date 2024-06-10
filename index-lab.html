@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BeatBook</title>
+        <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+
+            <nav>
+                <ul>
+                    <li><img src="./img/logo-beatbook.png" alt="Logo BeatBook" /></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h1>Encuentra aquí los bestseller</h1>
+            <section class="componentes contenedor">
+                <form>
+                    <label for="search">Busca tu libro</label><br /><br />
+                    <input type="text" id="Buscar" placeholder="Ingresa el nombre del libro" /><button>Buscar  <i class="fas fa-search"></i></button><br />
+
+                    <div class="Bucador">
+                        <label for="Título"><input type="checkbox" id="title" value="title" /> Título</label><br />
+                        <label for="Autor"><input type="checkbox" id="author" value="author" /> Autor</label><br />
+                        <label for="Tema"><input type="checkbox" id="topic" value="topic" /> Tema</label><br />
+                        <label for="Fecha"><input type="checkbox" id="date" value="date" /> Fecha de edición</label>
+                    </div>
+                </form>
+            </section>
+
+            
+            <main>
+                <div class="Libros">
+                    <div><strong>1994</strong><img src="./img/libro-uno.png" /><br><span><i class="far fa-bookmark"></i> Ellen von Unwerth.</span><br>
+                    <em>Alex Clarson</em></div>
+                    <div><strong>2022</strong><img src="./img/libro-dos.png" /><br><span><i class="far fa-bookmark"></i> Marc Newson.</span><br><em>Newson</em></div>
+                    <div><strong>2012</strong><img src="./img/libro-tres.png" /><br><span><i class="far fa-bookmark"></i> The Gourmand’s </span><br><em>LeandrO m.</em></div>
+                    <div><strong>2006</strong><img src="./img/libro-cuatro.png" /><br><span><i class="far fa-bookmark"></i> David Bowie.</span><br><em>Editores Sinergia</em></div>
+
+                </div><br>
+                <button class="btn">Ver más <i class="far fa-arrow-alt-circle-down"></i></button>
+            </main>
+        </div>
+        <footer>
+            <p>&copy; 2024 BeatBook</p>
+        </footer>
+    </body>
+</html>
